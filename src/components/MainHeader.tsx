@@ -1,10 +1,10 @@
 import Link from "next/link";
 import React from "react";
 import { useRouter } from "next/router";
-import { Locales } from "decoder/types";
+import type { Locales } from "decoder/types";
 import LocaleToName from "./LocaleToName";
 import { Trans } from "@lingui/macro";
-import LocaleEmoji from "components/LocaleEmoji";
+import LocaleEmoji from "@/components/LocaleEmoji";
 
 type MainHeaderProps = {};
 

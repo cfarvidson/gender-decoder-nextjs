@@ -4,7 +4,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { analyze } from "decoder/analyze";
 import { JobAdResults, Locales } from "decoder/types";
-import Results from "@/components/Results";
+import Results from "components/Results";
 import isHotkey from "is-hotkey";
 import { Trans, t } from "@lingui/macro";
 import { loadTranslation } from "translations/utils";

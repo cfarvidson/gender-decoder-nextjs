@@ -7,7 +7,7 @@ import { Trans, t } from "@lingui/macro";
 import { importWordlist } from "decoder/wordlists/wordlists";
 import { Locales } from "decoder/types";
 import { loadTranslation } from "translations/utils";
-import CodedWordBox from "@/components/CodedWordBox";
+import CodedWordBox from "components/CodedWordBox";
 
 const CodedWordsPage: NextPage = () => {
   const { locale } = useRouter();

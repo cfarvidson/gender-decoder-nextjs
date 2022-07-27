@@ -41,13 +41,13 @@ Start by adding a new locale to the Next.js application updating the `locales` k
 
 ### Wordlists
 
-The wordlists are located in `decoder/wordlist/{locale}.ts` with the `locale` corresponding to the language.
+The wordlists are located in `src/decoder/wordlist/{locale}.ts` with the `locale` corresponding to the language.
 
 To add a new language simply copy a wordlist and modify it to the new language.
 
 ### Translate all of the strings
 
-Run `yarn lang:extract` to extract all of the strings that needs translation. Then simply update the generated files under `translations/locales/{locale}/messages.ps`.
+Run `yarn lang:extract` to extract all of the strings that needs translation. Then simply update the generated files under `src/translations/locales/{locale}/messages.ps`.
 
 Run `yarn lang:compile` to manually compile the language (it will also be done when running `yarn build`)
 

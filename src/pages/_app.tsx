@@ -5,7 +5,7 @@ import { I18nProvider } from "@lingui/react";
 import { initTranslation } from "translations/utils";
 import { useRouter } from "next/router";
 import "../styles/globals.css";
-import Layout from "@/components/Layout";
+import Layout from "components/Layout";
 
 initTranslation(i18n);
 

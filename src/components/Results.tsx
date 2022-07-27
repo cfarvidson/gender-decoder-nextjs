@@ -3,7 +3,7 @@ import { JobAdResults } from "../decoder/types";
 import ResultWordList from "components/ResultWordList";
 import TranslatedCoding from "./TranslatedCoding";
 import { Trans } from "@lingui/macro";
-import CodedWordBox from "@/components/CodedWordBox";
+import CodedWordBox from "components/CodedWordBox";
 
 type ResultsProps = {
   result: JobAdResults | null;
