@@ -7,9 +7,11 @@ module.exports = {
   },
   catalogs: [
     {
-      path: "src/translations/locales/{locale}/messages",
-      include: ["pages", "components"],
+      path: "<rootDir>/translations/locales/{locale}/messages",
+      include: ["<rootDir>/pages", "<rootDir>/components"],
+      exclude: ["**/node_modules/**"],
     },
   ],
   format: "po",
+  rootDir: "src",
 };
