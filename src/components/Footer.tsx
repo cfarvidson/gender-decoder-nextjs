@@ -11,7 +11,7 @@ const Footer: React.FC<FooterProps> = ({}) => {
           The source code for this project can be found{" "}
           <a
             className="underline"
-            href="https://github.com/cfarvidson/gender-decoder"
+            href="https://github.com/cfarvidson/gender-decoder-nextjs"
           >
             here
           </a>{" "}
