@@ -105,5 +105,17 @@ describe("analyze", () => {
       );
       expect(result.coding).toEqual("feminine-coded");
     });
+
+    it("handles a word like social media ", () => {
+      const result = analyze(
+        "Detta är en aggressiv text som inte bara är lojal, snäll och gnällig. Du ska även ha sociala medier.",
+        "sv"
+      );
+      expect(result.masculineCodedWords).toEqual(["aggressiv"].sort());
+      expect(result.feminineCodedWords).toEqual(
+        ["snäll", "lojal", "gnällig"].sort()
+      );
+      expect(result.coding).toEqual("feminine-coded");
+    });
   });
 });
