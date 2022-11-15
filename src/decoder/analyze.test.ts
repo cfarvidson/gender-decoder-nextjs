@@ -1,4 +1,3 @@
-// const analyze = require("./analyze");
 import { analyze } from "./analyze";
 
 const neutralAd =
