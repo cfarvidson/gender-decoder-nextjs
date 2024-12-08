@@ -1,6 +1,7 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
-pnmp run test --watch=false
-pnmp run detect-unused
+pnpm run test:ci
+pnpm run detect-unused
 pnpm run detect-circular-imports
+pnpm run build

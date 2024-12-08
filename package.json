@@ -12,7 +12,7 @@
     "lang:extract": "NODE_ENV=development lingui extract --clean",
     "lang:compile": "lingui compile",
     "lang": "pnpm lang:extract && pnpm lang:compile",
-    "prepare": "husky install",
+    "prepare": "husky",
     "detect-unused": "node scripts/detect-unused.js",
     "detect-circular-imports": "madge --circular src/",
     "all": "pnpm build && jest && pnpm detect-unused && pnpm detect-circular-imports"
