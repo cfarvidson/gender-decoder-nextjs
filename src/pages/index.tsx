@@ -6,7 +6,8 @@ import { analyze } from "decoder/analyze";
 import { JobAdResults, Locales } from "decoder/types";
 import Results from "components/Results";
 import isHotkey from "is-hotkey";
-import { Trans, t } from "@lingui/macro";
+import { t } from "@lingui/core/macro";
+import { Trans } from "@lingui/react/macro";
 import { loadTranslation } from "translations/utils";
 
 interface HomeProps {}

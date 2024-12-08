@@ -28,7 +28,7 @@ msgstr ""
 msgid "about.intro"
 msgstr ""
 
-#: pages/index.tsx:43
+#: pages/index.tsx:44
 msgid "<0>Without realising it, we all use language that is subtly ‘gender-coded’. Society has certain expectations of what men and women are like, and how they differ, and this seeps into the language we use. Think about “bossy” and “feisty”: we almost never use these words to describe men.</0><1>This linguistic gender-coding shows up in job adverts as well, and research has shown that it puts women off applying for jobs that are advertised with masculine-coded language.</1><2>This site is a quick way to check whether a job advert has the kind of subtle linguistic gender-coding that has this discouraging effect.</2>"
 msgstr ""
 
@@ -40,7 +40,7 @@ msgstr ""
 msgid "All of the coded words"
 msgstr ""
 
-#: pages/index.tsx:87
+#: pages/index.tsx:88
 msgid "Analyze"
 msgstr ""
 
@@ -61,8 +61,8 @@ msgstr ""
 msgid "Feminine-coded words in this ad"
 msgstr ""
 
-#: pages/index.tsx:38
-#: pages/index.tsx:41
+#: pages/index.tsx:39
+#: pages/index.tsx:42
 msgid "Finding subtle bias in job ads"
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 msgid "results.explainer"
 msgstr ""
 
-#: pages/index.tsx:67
+#: pages/index.tsx:68
 msgid "Paste your ad text here"
 msgstr ""
 
@@ -143,7 +143,7 @@ msgstr ""
 msgid "Swedish flag"
 msgstr ""
 
-#: pages/index.tsx:87
+#: pages/index.tsx:88
 msgid "Test another Ad"
 msgstr ""
 
