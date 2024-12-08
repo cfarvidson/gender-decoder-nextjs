@@ -4,4 +4,3 @@ export NVM_DIR="$HOME/.nvm"
 pnpm run test:ci
 pnpm run detect-unused
 pnpm run detect-circular-imports
-pnpm run build

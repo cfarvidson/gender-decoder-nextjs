@@ -1,5 +1,8 @@
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
+pnpm run test:ci
+pnpm run detect-unused
+pnpm run detect-circular-imports
 pnpm run lint
 pnpm run build
