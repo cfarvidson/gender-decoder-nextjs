@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-yarn test --watch=false
-yarn detect-unused
-yarn detect-circular-imports
+pnmp run test --watch=false
+pnmp run detect-unused
+pnpm run detect-circular-imports
