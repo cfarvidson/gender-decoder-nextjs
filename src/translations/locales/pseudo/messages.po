@@ -13,8 +13,19 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#. placeholder {0}: wordCount[word]
 #: components/ResultWordList.tsx:40
 msgid "({0} times)"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Footer.tsx:9
+msgid "footer"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: pages/about.tsx:36
+msgid "about.intro"
 msgstr ""
 
 #: pages/index.tsx:43
@@ -37,6 +48,11 @@ msgstr ""
 msgid "English"
 msgstr ""
 
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:12
+msgid "coding.feminine-coded"
+msgstr ""
+
 #: pages/about.tsx:105
 msgid "Feminine-coded words"
 msgstr ""
@@ -48,6 +64,10 @@ msgstr ""
 #: pages/index.tsx:38
 #: pages/index.tsx:41
 msgid "Finding subtle bias in job ads"
+msgstr ""
+
+#: components/MainHeader.tsx:24
+msgid "for tech job ads"
 msgstr ""
 
 #: components/MainHeader.tsx:21
@@ -62,6 +82,11 @@ msgstr ""
 msgid "Language"
 msgstr ""
 
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:21
+msgid "coding.masculine-coded"
+msgstr ""
+
 #: pages/about.tsx:100
 msgid "Masculine-coded words"
 msgstr ""
@@ -70,12 +95,22 @@ msgstr ""
 msgid "Masculine-coded words in this ad"
 msgstr ""
 
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:30
+msgid "coding.neutral"
+msgstr ""
+
 #: components/ResultWordList.tsx:16
 msgid "No feminine-coded words were found."
 msgstr ""
 
 #: components/ResultWordList.tsx:18
 msgid "No masculine-coded words were found."
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:86
+msgid "results.explainer"
 msgstr ""
 
 #: pages/index.tsx:67
@@ -88,6 +123,16 @@ msgstr ""
 
 #: components/LocaleToName.tsx:16
 msgid "Pseudo"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:15
+msgid "coding.strongly-feminine-coded"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:25
+msgid "coding.strongly-masculine-coded"
 msgstr ""
 
 #: components/LocaleToName.tsx:14
@@ -110,70 +155,40 @@ msgstr ""
 msgid "The ad seems to be"
 msgstr ""
 
+#. js-lingui-explicit-id
+#: components/Results.tsx:69
+msgid "explanation.empty"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:77
+msgid "explanation.neutral"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:35
+msgid "explanation.feminine-coded"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:44
+msgid "explanation.strongly feminine-coded"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:53
+msgid "explanation.masculine-coded"
+msgstr ""
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:61
+msgid "explanation.strongly masculine-coded"
+msgstr ""
+
 #: components/LocaleEmoji.tsx:15
 msgid "USA flag"
 msgstr ""
 
 #: components/MainHeader.tsx:32
 msgid "What is this?"
-msgstr ""
-
-#: pages/about.tsx:36
-msgid "about.intro"
-msgstr ""
-
-#: components/TranslatedCoding.tsx:12
-msgid "coding.feminine-coded"
-msgstr ""
-
-#: components/TranslatedCoding.tsx:21
-msgid "coding.masculine-coded"
-msgstr ""
-
-#: components/TranslatedCoding.tsx:30
-msgid "coding.neutral"
-msgstr ""
-
-#: components/TranslatedCoding.tsx:15
-msgid "coding.strongly-feminine-coded"
-msgstr ""
-
-#: components/TranslatedCoding.tsx:25
-msgid "coding.strongly-masculine-coded"
-msgstr ""
-
-#: components/Results.tsx:69
-msgid "explanation.empty"
-msgstr ""
-
-#: components/Results.tsx:35
-msgid "explanation.feminine-coded"
-msgstr ""
-
-#: components/Results.tsx:53
-msgid "explanation.masculine-coded"
-msgstr ""
-
-#: components/Results.tsx:77
-msgid "explanation.neutral"
-msgstr ""
-
-#: components/Results.tsx:44
-msgid "explanation.strongly feminine-coded"
-msgstr ""
-
-#: components/Results.tsx:61
-msgid "explanation.strongly masculine-coded"
-msgstr ""
-
-#: components/Footer.tsx:9
-msgid "footer"
-msgstr ""
-
-#: components/MainHeader.tsx:24
-msgid "for tech job ads"
-msgstr ""
-
-#: components/Results.tsx:86
-msgid "results.explainer"
 msgstr ""

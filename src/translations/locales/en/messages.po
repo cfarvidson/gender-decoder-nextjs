@@ -13,9 +13,20 @@ msgstr ""
 "Language-Team: \n"
 "Plural-Forms: \n"
 
+#. placeholder {0}: wordCount[word]
 #: components/ResultWordList.tsx:40
 msgid "({0} times)"
 msgstr "({0} times)"
+
+#. js-lingui-explicit-id
+#: components/Footer.tsx:9
+msgid "footer"
+msgstr "<0>The source code for this project can be found <1>here</1> and it is a remake of <2>this</2> project</0><3>License: <4>GNU GPLv3</4></3>"
+
+#. js-lingui-explicit-id
+#: pages/about.tsx:36
+msgid "about.intro"
+msgstr "<0>This tool was inspired by a research paper written by Danielle Gaucher, Justin Friesen, and Aaron C. Kay back in 2011, called <1>Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality</1> (Journal of Personality and Social Psychology, July 2011, Vol 101(1), p109-128).</0><2>In this paper the researchers showed job adverts which included different kinds of gender-coded language to men and women and recorded how appealing the jobs seemed and how much the participants felt that they 'belonged' in that occupation. No non-binary people were included in this research, and the research didn't touch on non-binary-coded words.</2><3>Their results showed that women felt that job adverts with masculine-coded language were less appealing and that they belonged less in those occupations. For men, feminine-coded adverts were only slightly less appealing and there was no effect on how much the men felt they belonged in those roles.</3><4>Below are the full lists of words that this research considered masculine- and feminine-coded. This tool checks job adverts for the appearance of any of these words, then calculates the relative proportion of masculine-coded and feminine-coded words to reach an overall verdict on the gender-coding of the advert. Some words have been reduced to a 'stem' to cover a range of noun, verb and adjective variants; for instance \"compet\" covers \"compete\", \"competetive\" and \"competition\".</4>"
 
 #: pages/index.tsx:43
 msgid "<0>Without realising it, we all use language that is subtly ‘gender-coded’. Society has certain expectations of what men and women are like, and how they differ, and this seeps into the language we use. Think about “bossy” and “feisty”: we almost never use these words to describe men.</0><1>This linguistic gender-coding shows up in job adverts as well, and research has shown that it puts women off applying for jobs that are advertised with masculine-coded language.</1><2>This site is a quick way to check whether a job advert has the kind of subtle linguistic gender-coding that has this discouraging effect.</2>"
@@ -37,6 +48,11 @@ msgstr "Analyze"
 msgid "English"
 msgstr "English"
 
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:12
+msgid "coding.feminine-coded"
+msgstr "feminine-coded"
+
 #: pages/about.tsx:105
 msgid "Feminine-coded words"
 msgstr "Feminine-coded words"
@@ -50,6 +66,10 @@ msgstr "Feminine-coded words in this ad"
 msgid "Finding subtle bias in job ads"
 msgstr "Finding subtle bias in job ads"
 
+#: components/MainHeader.tsx:24
+msgid "for tech job ads"
+msgstr "for tech job ads"
+
 #: components/MainHeader.tsx:21
 msgid "Gender Decoder"
 msgstr "Gender Decoder"
@@ -62,6 +82,11 @@ msgstr "Go Back"
 msgid "Language"
 msgstr "Language"
 
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:21
+msgid "coding.masculine-coded"
+msgstr "masculine-coded"
+
 #: pages/about.tsx:100
 msgid "Masculine-coded words"
 msgstr "Masculine-coded words"
@@ -70,6 +95,11 @@ msgstr "Masculine-coded words"
 msgid "Masculine-coded words in this ad"
 msgstr "Masculine-coded words in this ad"
 
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:30
+msgid "coding.neutral"
+msgstr "neutral"
+
 #: components/ResultWordList.tsx:16
 msgid "No feminine-coded words were found."
 msgstr "No feminine-coded words were found."
@@ -77,6 +107,11 @@ msgstr "No feminine-coded words were found."
 #: components/ResultWordList.tsx:18
 msgid "No masculine-coded words were found."
 msgstr "No masculine-coded words were found."
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:86
+msgid "results.explainer"
+msgstr "Of course, there are plenty of other factors that affect the diversity of applicants for this role, and of the people who end up being hired. These include the company's reputation for inclusiveness, its culture, and the behaviour and prejudices (both conscious and unconscious) of the interviewers."
 
 #: pages/index.tsx:67
 msgid "Paste your ad text here"
@@ -89,6 +124,16 @@ msgstr "Pirate flag"
 #: components/LocaleToName.tsx:16
 msgid "Pseudo"
 msgstr "Pseudo"
+
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:15
+msgid "coding.strongly-feminine-coded"
+msgstr "strongly feminine-coded"
+
+#. js-lingui-explicit-id
+#: components/TranslatedCoding.tsx:25
+msgid "coding.strongly-masculine-coded"
+msgstr "strongly masculine-coded"
 
 #: components/LocaleToName.tsx:14
 msgid "Swedish"
@@ -110,6 +155,36 @@ msgstr "The ad does not include any coded words"
 msgid "The ad seems to be"
 msgstr "The ad seems to be"
 
+#. js-lingui-explicit-id
+#: components/Results.tsx:69
+msgid "explanation.empty"
+msgstr "This job ad doesn't use any words that are subtly coded as masculine or feminine. It probably won't be off-putting to men or women applicants."
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:77
+msgid "explanation.neutral"
+msgstr "This job ad uses an equal number of words that are subtly coded as masculine and feminine. It probably won't be off-putting to men or women applicants."
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:35
+msgid "explanation.feminine-coded"
+msgstr "This job ad uses more words that are subtly coded as feminine than words that are subtly coded as masculine. Fortunately, the research suggests this will have only a slight effect on how appealing the job is to men, and will encourage women applicants."
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:44
+msgid "explanation.strongly feminine-coded"
+msgstr "This job ad uses more words that are subtly coded as feminine than words that are subtly coded as masculine. Fortunately, the research suggests this will have only a slight effect on how appealing the job is to men, and will encourage women applicants."
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:53
+msgid "explanation.masculine-coded"
+msgstr "This job ad uses more words that are subtly coded as masculine than words that are subtly coded as feminine. It risks putting women off applying, but will probably encourage men to apply."
+
+#. js-lingui-explicit-id
+#: components/Results.tsx:61
+msgid "explanation.strongly masculine-coded"
+msgstr "This job ad uses more words that are subtly coded as masculine than words that are subtly coded as feminine. It risks putting women off applying, but will probably encourage men to apply."
+
 #: components/LocaleEmoji.tsx:15
 msgid "USA flag"
 msgstr "USA flag"
@@ -117,63 +192,3 @@ msgstr "USA flag"
 #: components/MainHeader.tsx:32
 msgid "What is this?"
 msgstr "What is this?"
-
-#: pages/about.tsx:36
-msgid "about.intro"
-msgstr "<0>This tool was inspired by a research paper written by Danielle Gaucher, Justin Friesen, and Aaron C. Kay back in 2011, called <1>Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality</1> (Journal of Personality and Social Psychology, July 2011, Vol 101(1), p109-128).</0><2>In this paper the researchers showed job adverts which included different kinds of gender-coded language to men and women and recorded how appealing the jobs seemed and how much the participants felt that they 'belonged' in that occupation. No non-binary people were included in this research, and the research didn't touch on non-binary-coded words.</2><3>Their results showed that women felt that job adverts with masculine-coded language were less appealing and that they belonged less in those occupations. For men, feminine-coded adverts were only slightly less appealing and there was no effect on how much the men felt they belonged in those roles.</3><4>Below are the full lists of words that this research considered masculine- and feminine-coded. This tool checks job adverts for the appearance of any of these words, then calculates the relative proportion of masculine-coded and feminine-coded words to reach an overall verdict on the gender-coding of the advert. Some words have been reduced to a 'stem' to cover a range of noun, verb and adjective variants; for instance \"compet\" covers \"compete\", \"competetive\" and \"competition\".</4>"
-
-#: components/TranslatedCoding.tsx:12
-msgid "coding.feminine-coded"
-msgstr "feminine-coded"
-
-#: components/TranslatedCoding.tsx:21
-msgid "coding.masculine-coded"
-msgstr "masculine-coded"
-
-#: components/TranslatedCoding.tsx:30
-msgid "coding.neutral"
-msgstr "neutral"
-
-#: components/TranslatedCoding.tsx:15
-msgid "coding.strongly-feminine-coded"
-msgstr "strongly feminine-coded"
-
-#: components/TranslatedCoding.tsx:25
-msgid "coding.strongly-masculine-coded"
-msgstr "strongly masculine-coded"
-
-#: components/Results.tsx:69
-msgid "explanation.empty"
-msgstr "This job ad doesn't use any words that are subtly coded as masculine or feminine. It probably won't be off-putting to men or women applicants."
-
-#: components/Results.tsx:35
-msgid "explanation.feminine-coded"
-msgstr "This job ad uses more words that are subtly coded as feminine than words that are subtly coded as masculine. Fortunately, the research suggests this will have only a slight effect on how appealing the job is to men, and will encourage women applicants."
-
-#: components/Results.tsx:53
-msgid "explanation.masculine-coded"
-msgstr "This job ad uses more words that are subtly coded as masculine than words that are subtly coded as feminine. It risks putting women off applying, but will probably encourage men to apply."
-
-#: components/Results.tsx:77
-msgid "explanation.neutral"
-msgstr "This job ad uses an equal number of words that are subtly coded as masculine and feminine . It probably won't be off-putting to men or women applicants."
-
-#: components/Results.tsx:44
-msgid "explanation.strongly feminine-coded"
-msgstr "This job ad uses more words that are subtly coded as feminine than words that are subtly coded as masculine. Fortunately, the research suggests this will have only a slight effect on how appealing the job is to men, and will encourage women applicants."
-
-#: components/Results.tsx:61
-msgid "explanation.strongly masculine-coded"
-msgstr "This job ad uses more words that are subtly coded as masculine than words that are subtly coded as feminine. It risks putting women off applying, but will probably encourage men to apply."
-
-#: components/Footer.tsx:9
-msgid "footer"
-msgstr "<0>The source code for this project can be found <1>here</1> and it is a remake of <2>this</2> project</0><3>License: <4>GNU GPLv3</4></3>"
-
-#: components/MainHeader.tsx:24
-msgid "for tech job ads"
-msgstr "for tech job ads"
-
-#: components/Results.tsx:86
-msgid "results.explainer"
-msgstr "Of course, there are plenty of other factors that affect the diversity of applicants for this role, and of the people who end up being hired. These include the company's reputation for inclusiveness, its culture, and the behaviour and prejudices (both conscious and unconscious) of the interviewers."
