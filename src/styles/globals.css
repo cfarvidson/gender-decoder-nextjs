@@ -14,18 +14,16 @@ a {
 * {
   box-sizing: border-box;
 } */
-html, body {
+html,
+body {
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
-
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 #__next {
-  @apply flex flex-col min-h-screen justify-between
+  @apply flex flex-col min-h-screen justify-between;
 }

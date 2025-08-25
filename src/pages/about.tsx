@@ -21,12 +21,10 @@ const CodedWordsPage: NextPage = () => {
       </Head>
 
       <div className="mt-10">
-        <Link href="/">
-          <a className="text-2xl">
-            <span area-hidden="true"></span>
-            {"< "}
-            <Trans>Go Back</Trans>
-          </a>
+        <Link href="/" className="text-2xl">
+          <span aria-hidden="true"></span>
+          {"< "}
+          <Trans>Go Back</Trans>
         </Link>
       </div>
 

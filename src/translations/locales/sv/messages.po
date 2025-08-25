@@ -24,7 +24,7 @@ msgid "footer"
 msgstr "<0>Källkoden för detta projekt finns <1>här</1> och det är en omarbetning av <2>detta</2> projekt</0><3>Licens: <4>GNU GPLv3</4></3>"
 
 #. js-lingui-explicit-id
-#: pages/about.tsx:36
+#: pages/about.tsx:34
 msgid "about.intro"
 msgstr "<0>Detta verktyg inspirerades av en forskningsartikel skriven av Danielle Gaucher, Justin Friesen och Aaron C. Kay 2011, kallad <1>Evidence That Gendered Wording in Job Advertisements Exists and Sustains Gender Inequality</1> (Journal of Personality and Social Psychology, juli 2011, Vol 101(1), s109-128).</0><2>I denna artikel visade forskarna jobbannonser som innehöll olika typer av könskodat språk för män och kvinnor och noterade hur tilltalande jobben verkade och hur mycket deltagarna kände att de 'hörde hemma' i det yrket. Inga ickebinära personer inkluderades i denna forskning, och forskningen berörde inte ickebinärt kodade ord.</2><3>Deras resultat visade att kvinnor upplevde att jobbannonser med maskulint kodat språk var mindre tilltalande och att de kände att de hörde hemma mindre i dessa yrken. För män var feminint kodade annonser bara något mindre tilltalande och det fanns ingen effekt på hur mycket männen kände att de hörde hemma i dessa roller.</3><4>Nedan finns de fullständiga listorna över ord som denna forskning ansåg vara maskulint och feminint kodade. Detta verktyg kontrollerar jobbannonser efter förekomsten av något av dessa ord och beräknar sedan den relativa andelen maskulint och feminint kodade ord för att nå ett övergripande utlåtande om annonsens könskodning.</4>"
 
@@ -32,7 +32,7 @@ msgstr "<0>Detta verktyg inspirerades av en forskningsartikel skriven av Daniell
 msgid "<0>Without realising it, we all use language that is subtly ‘gender-coded’. Society has certain expectations of what men and women are like, and how they differ, and this seeps into the language we use. Think about “bossy” and “feisty”: we almost never use these words to describe men.</0><1>This linguistic gender-coding shows up in job adverts as well, and research has shown that it puts women off applying for jobs that are advertised with masculine-coded language.</1><2>This site is a quick way to check whether a job advert has the kind of subtle linguistic gender-coding that has this discouraging effect.</2>"
 msgstr "<0>Utan att inse det använder vi alla ett språk som är subtilt 'könskodat'. Samhället har vissa förväntningar på hur män och kvinnor är och hur de skiljer sig åt, och detta sipprar in i språket vi använder. Tänk på ord som 'bossig' och 'kaxig': vi använder nästan aldrig dessa ord för att beskriva män.</0><1>Denna språkliga könskodning dyker upp även i jobbannonser, och forskning har visat att det avskräcker kvinnor från att söka jobb som annonseras med maskulint kodat språk.</1><2>Denna webbplats är ett snabbt sätt att kontrollera om en jobbannons har den typ av subtil språklig könskodning som har denna avskräckande effekt.</2>"
 
-#: pages/about.tsx:34
+#: pages/about.tsx:32
 msgid "About this tool"
 msgstr "Om det här verktyget"
 
@@ -53,7 +53,7 @@ msgstr "Engelska"
 msgid "coding.feminine-coded"
 msgstr "feminint kodad"
 
-#: pages/about.tsx:105
+#: pages/about.tsx:103
 msgid "Feminine-coded words"
 msgstr "Feminint kodade ord"
 
@@ -74,11 +74,11 @@ msgstr "för jobbannonser inom IT-branschen"
 msgid "Gender Decoder"
 msgstr "Gender Decoder"
 
-#: pages/about.tsx:28
+#: pages/about.tsx:27
 msgid "Go Back"
 msgstr "Gå tillbaka"
 
-#: components/MainHeader.tsx:39
+#: components/MainHeader.tsx:37
 msgid "Language"
 msgstr "Språk"
 
@@ -87,7 +87,7 @@ msgstr "Språk"
 msgid "coding.masculine-coded"
 msgstr "maskulint kodad"
 
-#: pages/about.tsx:100
+#: pages/about.tsx:98
 msgid "Masculine-coded words"
 msgstr "Maskulint kodade ord"
 
@@ -189,6 +189,6 @@ msgstr "Den här jobbannonsen använder betydligt fler ord som är subtilt kodad
 msgid "USA flag"
 msgstr "USA flagga"
 
-#: components/MainHeader.tsx:32
+#: components/MainHeader.tsx:31
 msgid "What is this?"
 msgstr "Vad är detta?"
