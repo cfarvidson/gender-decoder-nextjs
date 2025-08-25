@@ -27,10 +27,8 @@ const MainHeader: React.FC<MainHeaderProps> = ({}) => {
       </div>
       <div className="flex flex-col sm:flex-row sm:space-x-4 justify-between">
         <div className="not-prose flex justify-center sm:block ">
-          <Link href="/about">
-            <a className="underline font-semibold">
-              <Trans>What is this?</Trans>
-            </a>
+          <Link href="/about" className="underline font-semibold">
+            <Trans>What is this?</Trans>
           </Link>
         </div>
 
@@ -44,14 +42,14 @@ const MainHeader: React.FC<MainHeaderProps> = ({}) => {
                 return null;
               } else if (locale !== activeLocale) {
                 return (
-                  <Link href={asPath} locale={locale} key={i}>
-                    <a className="no-underline hover:ring-2 hover:ring-slate-200 ring-offset py-1 px-3 rounded-lg">
-                      <LocaleToName locale={locale as Locales} />
-                      <LocaleEmoji
-                        locale={locale as Locales}
-                        className="ml-1"
-                      />
-                    </a>
+                  <Link
+                    href={asPath}
+                    locale={locale}
+                    key={i}
+                    className="no-underline hover:ring-2 hover:ring-slate-200 ring-offset py-1 px-3 rounded-lg"
+                  >
+                    <LocaleToName locale={locale as Locales} />
+                    <LocaleEmoji locale={locale as Locales} className="ml-1" />
                   </Link>
                 );
               } else {

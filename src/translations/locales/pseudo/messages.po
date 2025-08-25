@@ -24,7 +24,7 @@ msgid "footer"
 msgstr ""
 
 #. js-lingui-explicit-id
-#: pages/about.tsx:36
+#: pages/about.tsx:34
 msgid "about.intro"
 msgstr ""
 
@@ -32,7 +32,7 @@ msgstr ""
 msgid "<0>Without realising it, we all use language that is subtly ‘gender-coded’. Society has certain expectations of what men and women are like, and how they differ, and this seeps into the language we use. Think about “bossy” and “feisty”: we almost never use these words to describe men.</0><1>This linguistic gender-coding shows up in job adverts as well, and research has shown that it puts women off applying for jobs that are advertised with masculine-coded language.</1><2>This site is a quick way to check whether a job advert has the kind of subtle linguistic gender-coding that has this discouraging effect.</2>"
 msgstr ""
 
-#: pages/about.tsx:34
+#: pages/about.tsx:32
 msgid "About this tool"
 msgstr ""
 
@@ -53,7 +53,7 @@ msgstr ""
 msgid "coding.feminine-coded"
 msgstr ""
 
-#: pages/about.tsx:105
+#: pages/about.tsx:103
 msgid "Feminine-coded words"
 msgstr ""
 
@@ -74,11 +74,11 @@ msgstr ""
 msgid "Gender Decoder"
 msgstr ""
 
-#: pages/about.tsx:28
+#: pages/about.tsx:27
 msgid "Go Back"
 msgstr ""
 
-#: components/MainHeader.tsx:39
+#: components/MainHeader.tsx:37
 msgid "Language"
 msgstr ""
 
@@ -87,7 +87,7 @@ msgstr ""
 msgid "coding.masculine-coded"
 msgstr ""
 
-#: pages/about.tsx:100
+#: pages/about.tsx:98
 msgid "Masculine-coded words"
 msgstr ""
 
@@ -189,6 +189,6 @@ msgstr ""
 msgid "USA flag"
 msgstr ""
 
-#: components/MainHeader.tsx:32
+#: components/MainHeader.tsx:31
 msgid "What is this?"
 msgstr ""
