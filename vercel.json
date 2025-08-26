@@ -1,7 +1,7 @@
 {
   "functions": {
     "src/pages/api/**/*.ts": {
-      "runtime": "@vercel/node@3"
+      "runtime": "nodejs20.x"
     }
   },
   "buildCommand": "pnpm build"
