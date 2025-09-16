@@ -59,6 +59,11 @@
     "tailwindcss": "^4.1.13",
     "typescript": "5.9.2"
   },
+  "pnpm": {
+    "overrides": {
+      "simple-swizzle": "0.2.4"
+    }
+  },
   "packageManager": "pnpm@10.13.1",
   "engines": {
     "node": ">=20"
